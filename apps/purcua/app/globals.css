@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+/* Escanea el codigo fuente de los paquetes compartidos del monorepo. */
+@source "../../../packages/ui/src";
+
+:root {
+  --background: #ffffff;
+  --foreground: #1a1320;
+
+  /* Marca de Purcuá: violeta/magenta pop */
+  --color-brand: #7c3aed;
+  --color-brand-soft: #f3e8ff;
+  --color-accent: #ec4899;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-brand: var(--color-brand);
+  --color-brand-soft: var(--color-brand-soft);
+  --color-accent: var(--color-accent);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}

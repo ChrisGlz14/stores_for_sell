@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Escanea el codigo fuente de los paquetes compartidos del monorepo
+   para que sus clases de Tailwind no se eliminen en el build. */
+@source "../../../packages/ui/src";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  /* Color de marca de ESTE cliente. Cada app lo override. */
+  --color-brand: #2563eb;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
