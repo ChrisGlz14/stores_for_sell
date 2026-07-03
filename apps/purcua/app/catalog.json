@@ -1,0 +1,1845 @@
+{
+  "_meta": {
+    "generatedAt": "2026-07-03T04:03:49.520Z",
+    "source": "apps/purcua/public/img",
+    "note": "Generado con `pnpm catalogo`. Editá precios/destacados a mano o volvé a correr el script.",
+    "totalProducts": 82
+  },
+  "store": {
+    "name": "Purcuá",
+    "logo": "/img/logo/logo-purcua.png",
+    "banners": [
+      {
+        "slug": "banner-custom-products",
+        "name": "Banner Custom Products",
+        "image": "/img/banners/banner-custom-products.png"
+      },
+      {
+        "slug": "banner-hero-purcua",
+        "name": "Banner Hero Purcua",
+        "image": "/img/banners/banner-hero-purcua.jpg"
+      },
+      {
+        "slug": "banner-installments-shipping",
+        "name": "Banner Installments Shipping",
+        "image": "/img/banners/banner-installments-shipping.jpg"
+      },
+      {
+        "slug": "banner-merch-anime",
+        "name": "Banner Merch Anime",
+        "image": "/img/banners/banner-merch-anime.jpg"
+      }
+    ],
+    "customWork": [
+      {
+        "slug": "business-cards-mecanica-jhr",
+        "name": "Business Cards Mecanica JHR",
+        "image": "/img/custom-work/business-cards-mecanica-jhr.jpg"
+      },
+      {
+        "slug": "mug-mockup-your-design",
+        "name": "Mug Mockup Your Design",
+        "image": "/img/custom-work/mug-mockup-your-design.jpg"
+      },
+      {
+        "slug": "party-banner-martina",
+        "name": "Party Banner Martina",
+        "image": "/img/custom-work/party-banner-martina.png"
+      },
+      {
+        "slug": "stickers-camilo-birthday",
+        "name": "Stickers Camilo Birthday",
+        "image": "/img/custom-work/stickers-camilo-birthday.jpg"
+      },
+      {
+        "slug": "stickers-mothers-day",
+        "name": "Stickers Mothers Day",
+        "image": "/img/custom-work/stickers-mothers-day.jpg"
+      },
+      {
+        "slug": "tags-jema",
+        "name": "Tags Jema",
+        "image": "/img/custom-work/tags-jema.jpg"
+      }
+    ],
+    "paymentMethods": [
+      {
+        "slug": "payment-acordar",
+        "name": "A acordar",
+        "image": "/img/payment-methods/payment-acordar.png"
+      },
+      {
+        "slug": "payment-argencard",
+        "name": "Argencard",
+        "image": "/img/payment-methods/payment-argencard.png"
+      },
+      {
+        "slug": "payment-bank-transfer",
+        "name": "Transferencia bancaria",
+        "image": "/img/payment-methods/payment-bank-transfer.png"
+      },
+      {
+        "slug": "payment-cabal",
+        "name": "Cabal",
+        "image": "/img/payment-methods/payment-cabal.png"
+      },
+      {
+        "slug": "payment-diners-club",
+        "name": "Diners Club",
+        "image": "/img/payment-methods/payment-diners-club.png"
+      },
+      {
+        "slug": "payment-gocuotas",
+        "name": "GoCuotas",
+        "image": "/img/payment-methods/payment-gocuotas.png"
+      },
+      {
+        "slug": "payment-maestro",
+        "name": "Maestro",
+        "image": "/img/payment-methods/payment-maestro.png"
+      },
+      {
+        "slug": "payment-mastercard",
+        "name": "Mastercard",
+        "image": "/img/payment-methods/payment-mastercard.png"
+      },
+      {
+        "slug": "payment-mercadopago",
+        "name": "Mercado Pago",
+        "image": "/img/payment-methods/payment-mercadopago.png"
+      },
+      {
+        "slug": "payment-nativa",
+        "name": "Nativa",
+        "image": "/img/payment-methods/payment-nativa.png"
+      },
+      {
+        "slug": "payment-pagofacil",
+        "name": "Pago Fácil",
+        "image": "/img/payment-methods/payment-pagofacil.png"
+      },
+      {
+        "slug": "payment-rapipago",
+        "name": "Rapipago",
+        "image": "/img/payment-methods/payment-rapipago.png"
+      },
+      {
+        "slug": "payment-visa",
+        "name": "Visa",
+        "image": "/img/payment-methods/payment-visa.png"
+      }
+    ],
+    "shippingMethods": [
+      {
+        "slug": "shipping-correo-argentino",
+        "name": "Correo Argentino",
+        "image": "/img/shipping/shipping-correo-argentino.png"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "slug": "aros",
+      "name": "Aros",
+      "count": 9
+    },
+    {
+      "slug": "figuras",
+      "name": "Figuras",
+      "count": 71
+    },
+    {
+      "slug": "llaveros",
+      "name": "Llaveros",
+      "count": 1
+    },
+    {
+      "slug": "peluches",
+      "name": "Peluches",
+      "count": 1
+    }
+  ],
+  "sagas": [
+    {
+      "slug": "dragon-ball",
+      "name": "Dragon Ball",
+      "count": 38
+    },
+    {
+      "slug": "my-hero-academia",
+      "name": "My Hero Academia",
+      "count": 6
+    },
+    {
+      "slug": "bt21",
+      "name": "BT21 (BTS)",
+      "count": 5
+    },
+    {
+      "slug": "jujutsu-kaisen",
+      "name": "Jujutsu Kaisen",
+      "count": 5
+    },
+    {
+      "slug": "sailor-moon",
+      "name": "Sailor Moon",
+      "count": 5
+    },
+    {
+      "slug": "saint-seiya",
+      "name": "Saint Seiya",
+      "count": 5
+    },
+    {
+      "slug": "naruto",
+      "name": "Naruto",
+      "count": 4
+    },
+    {
+      "slug": "spy-x-family",
+      "name": "Spy x Family",
+      "count": 3
+    },
+    {
+      "slug": "one-piece",
+      "name": "One Piece",
+      "count": 2
+    },
+    {
+      "slug": "sanrio",
+      "name": "Sanrio",
+      "count": 2
+    },
+    {
+      "slug": "bob-esponja",
+      "name": "Bob Esponja",
+      "count": 1
+    },
+    {
+      "slug": "bleach",
+      "name": "Bleach",
+      "count": 1
+    },
+    {
+      "slug": "chainsaw-man",
+      "name": "Chainsaw Man",
+      "count": 1
+    },
+    {
+      "slug": "demon-slayer",
+      "name": "Demon Slayer",
+      "count": 1
+    },
+    {
+      "slug": "pokemon",
+      "name": "Pokémon",
+      "count": 1
+    },
+    {
+      "slug": "predator",
+      "name": "Predator",
+      "count": 1
+    },
+    {
+      "slug": "kirby",
+      "name": "Kirby",
+      "count": 1
+    }
+  ],
+  "products": [
+    {
+      "id": "earrings-bt21-chimmy",
+      "slug": "earrings-bt21-chimmy",
+      "title": "Aros BT21 (BTS) - Chimmy",
+      "price": 5100,
+      "image": "/img/products/earrings/earrings-bt21-chimmy.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "bt21",
+        "name": "BT21 (BTS)"
+      },
+      "character": "Chimmy",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "earrings-bt21-koya",
+      "slug": "earrings-bt21-koya",
+      "title": "Aros BT21 (BTS) - Koya",
+      "price": 4500,
+      "image": "/img/products/earrings/earrings-bt21-koya.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "bt21",
+        "name": "BT21 (BTS)"
+      },
+      "character": "Koya",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "earrings-bt21-mang",
+      "slug": "earrings-bt21-mang",
+      "title": "Aros BT21 (BTS) - Mang",
+      "price": 5800,
+      "image": "/img/products/earrings/earrings-bt21-mang.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "bt21",
+        "name": "BT21 (BTS)"
+      },
+      "character": "Mang",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "earrings-bt21-rj",
+      "slug": "earrings-bt21-rj",
+      "title": "Aros BT21 (BTS) - RJ",
+      "price": 5900,
+      "image": "/img/products/earrings/earrings-bt21-rj.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "bt21",
+        "name": "BT21 (BTS)"
+      },
+      "character": "RJ",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "earrings-bt21-tata-red",
+      "slug": "earrings-bt21-tata-red",
+      "title": "Aros BT21 (BTS) - Tata Red",
+      "price": 6000,
+      "image": "/img/products/earrings/earrings-bt21-tata-red.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "bt21",
+        "name": "BT21 (BTS)"
+      },
+      "character": "Tata Red",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "earrings-chopper",
+      "slug": "earrings-chopper",
+      "title": "Aros One Piece - Chopper",
+      "price": 6000,
+      "image": "/img/products/earrings/earrings-chopper.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "one-piece",
+        "name": "One Piece"
+      },
+      "character": "Chopper",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "earrings-kuromi",
+      "slug": "earrings-kuromi",
+      "title": "Aros Sanrio - Kuromi",
+      "price": 4500,
+      "image": "/img/products/earrings/earrings-kuromi.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "sanrio",
+        "name": "Sanrio"
+      },
+      "character": "Kuromi",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "earrings-patrick",
+      "slug": "earrings-patrick",
+      "title": "Aros Bob Esponja - Patrick",
+      "price": 4900,
+      "image": "/img/products/earrings/earrings-patrick.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "bob-esponja",
+        "name": "Bob Esponja"
+      },
+      "character": "Patrick",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "earrings-pochacco",
+      "slug": "earrings-pochacco",
+      "title": "Aros Sanrio - Pochacco",
+      "price": 6400,
+      "image": "/img/products/earrings/earrings-pochacco.jpg",
+      "category": {
+        "slug": "aros",
+        "name": "Aros"
+      },
+      "saga": {
+        "slug": "sanrio",
+        "name": "Sanrio"
+      },
+      "character": "Pochacco",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "bleach-renji-abarai-anime-heroes",
+      "slug": "bleach-renji-abarai-anime-heroes",
+      "title": "Figura Bleach - Renji Abarai",
+      "price": 20200,
+      "image": "/img/products/figures/bleach-renji-abarai-anime-heroes.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "bleach",
+        "name": "Bleach"
+      },
+      "character": "Renji Abarai",
+      "tags": [
+        "Anime Heroes"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "chainsaw-man-denji",
+      "slug": "chainsaw-man-denji",
+      "title": "Figura Chainsaw Man - Denji",
+      "price": 25900,
+      "image": "/img/products/figures/chainsaw-man-denji.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "chainsaw-man",
+        "name": "Chainsaw Man"
+      },
+      "character": "Denji",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "demon-slayer-nezuko",
+      "slug": "demon-slayer-nezuko",
+      "title": "Figura Demon Slayer - Nezuko",
+      "price": 25000,
+      "image": "/img/products/figures/demon-slayer-nezuko.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "demon-slayer",
+        "name": "Demon Slayer"
+      },
+      "character": "Nezuko",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-android-16",
+      "slug": "dragonball-android-16",
+      "title": "Figura Dragon Ball - Android 16",
+      "price": 26900,
+      "image": "/img/products/figures/dragonball-android-16.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Android 16",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-buff-buu",
+      "slug": "dragonball-buff-buu",
+      "title": "Figura Dragon Ball - Buff Buu",
+      "price": 19500,
+      "image": "/img/products/figures/dragonball-buff-buu.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Buff Buu",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-cell-and-cell-jr-set",
+      "slug": "dragonball-cell-and-cell-jr-set",
+      "title": "Figura Dragon Ball - Cell y Cell Jr Set",
+      "price": 19400,
+      "image": "/img/products/figures/dragonball-cell-and-cell-jr-set.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Cell y Cell Jr Set",
+      "tags": [
+        "Set"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-cell-imperfect-form",
+      "slug": "dragonball-cell-imperfect-form",
+      "title": "Figura Dragon Ball - Cell Imperfect Form",
+      "price": 26400,
+      "image": "/img/products/figures/dragonball-cell-imperfect-form.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Cell Imperfect Form",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-cell-jr",
+      "slug": "dragonball-cell-jr",
+      "title": "Figura Dragon Ball - Cell Jr",
+      "price": 24200,
+      "image": "/img/products/figures/dragonball-cell-jr.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Cell Jr",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-cell-perfect",
+      "slug": "dragonball-cell-perfect",
+      "title": "Figura Dragon Ball - Cell Perfect",
+      "price": 20500,
+      "image": "/img/products/figures/dragonball-cell-perfect.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Cell Perfect",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-champa-chibi",
+      "slug": "dragonball-champa-chibi",
+      "title": "Figura Dragon Ball - Champa Chibi",
+      "price": 18100,
+      "image": "/img/products/figures/dragonball-champa-chibi.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Champa Chibi",
+      "tags": [
+        "Chibi"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-cooler-final-form",
+      "slug": "dragonball-cooler-final-form",
+      "title": "Figura Dragon Ball - Cooler Final Form",
+      "price": 24300,
+      "image": "/img/products/figures/dragonball-cooler-final-form.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Cooler Final Form",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-crystal-dragon-balls-set",
+      "slug": "dragonball-crystal-dragon-balls-set",
+      "title": "Figura Dragon Ball - Crystal Dragon Balls Set",
+      "price": 26000,
+      "image": "/img/products/figures/dragonball-crystal-dragon-balls-set.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Crystal Dragon Balls Set",
+      "tags": [
+        "Set"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-evil-buu-grey-cape",
+      "slug": "dragonball-evil-buu-grey-cape",
+      "title": "Figura Dragon Ball - Evil Buu Grey Cape",
+      "price": 19200,
+      "image": "/img/products/figures/dragonball-evil-buu-grey-cape.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Evil Buu Grey Cape",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-frieza-final-form",
+      "slug": "dragonball-frieza-final-form",
+      "title": "Figura Dragon Ball - Frieza Final Form",
+      "price": 19300,
+      "image": "/img/products/figures/dragonball-frieza-final-form.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Frieza Final Form",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-frieza-sitting",
+      "slug": "dragonball-frieza-sitting",
+      "title": "Figura Dragon Ball - Frieza Sitting",
+      "price": 16200,
+      "image": "/img/products/figures/dragonball-frieza-sitting.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Frieza Sitting",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-general-blue",
+      "slug": "dragonball-general-blue",
+      "title": "Figura Dragon Ball - General Blue",
+      "price": 16100,
+      "image": "/img/products/figures/dragonball-general-blue.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "General Blue",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-ginyu-force-set",
+      "slug": "dragonball-ginyu-force-set",
+      "title": "Figura Dragon Ball - Ginyu Force Set",
+      "price": 22500,
+      "image": "/img/products/figures/dragonball-ginyu-force-set.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Ginyu Force Set",
+      "tags": [
+        "Set"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-gohan-glasses-chibi",
+      "slug": "dragonball-gohan-glasses-chibi",
+      "title": "Figura Dragon Ball - Gohan Glasses Chibi",
+      "price": 21700,
+      "image": "/img/products/figures/dragonball-gohan-glasses-chibi.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Gohan Glasses Chibi",
+      "tags": [
+        "Chibi"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-gohan-kid-saiyan-armor",
+      "slug": "dragonball-gohan-kid-saiyan-armor",
+      "title": "Figura Dragon Ball - Gohan Kid Saiyan Armor",
+      "price": 27800,
+      "image": "/img/products/figures/dragonball-gohan-kid-saiyan-armor.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Gohan Kid Saiyan Armor",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-gohan-kid-training",
+      "slug": "dragonball-gohan-kid-training",
+      "title": "Figura Dragon Ball - Gohan Kid Training",
+      "price": 19600,
+      "image": "/img/products/figures/dragonball-gohan-kid-training.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Gohan Kid Training",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-gohan-kid",
+      "slug": "dragonball-gohan-kid",
+      "title": "Figura Dragon Ball - Gohan Kid",
+      "price": 23300,
+      "image": "/img/products/figures/dragonball-gohan-kid.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Gohan Kid",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-goku-black-rose",
+      "slug": "dragonball-goku-black-rose",
+      "title": "Figura Dragon Ball - Goku Black Rose",
+      "price": 25100,
+      "image": "/img/products/figures/dragonball-goku-black-rose.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Goku Black Rose",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-goku-carrying-nappa",
+      "slug": "dragonball-goku-carrying-nappa",
+      "title": "Figura Dragon Ball - Goku Carrying Nappa",
+      "price": 19800,
+      "image": "/img/products/figures/dragonball-goku-carrying-nappa.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Goku Carrying Nappa",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-golden-frieza-chibi",
+      "slug": "dragonball-golden-frieza-chibi",
+      "title": "Figura Dragon Ball - Golden Frieza Chibi",
+      "price": 16100,
+      "image": "/img/products/figures/dragonball-golden-frieza-chibi.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Golden Frieza Chibi",
+      "tags": [
+        "Chibi"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-great-ape-vegeta",
+      "slug": "dragonball-great-ape-vegeta",
+      "title": "Figura Dragon Ball - Great Ape Vegeta",
+      "price": 18300,
+      "image": "/img/products/figures/dragonball-great-ape-vegeta.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Great Ape Vegeta",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-kid-goku-cat",
+      "slug": "dragonball-kid-goku-cat",
+      "title": "Figura Dragon Ball - Kid Goku Cat",
+      "price": 22400,
+      "image": "/img/products/figures/dragonball-kid-goku-cat.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Kid Goku Cat",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-kid-goku-power-pole",
+      "slug": "dragonball-kid-goku-power-pole",
+      "title": "Figura Dragon Ball - Kid Goku Power Pole",
+      "price": 17500,
+      "image": "/img/products/figures/dragonball-kid-goku-power-pole.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Kid Goku Power Pole",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-krillin-armor",
+      "slug": "dragonball-krillin-armor",
+      "title": "Figura Dragon Ball - Krillin Armor",
+      "price": 23100,
+      "image": "/img/products/figures/dragonball-krillin-armor.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Krillin Armor",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-majin-buu-blue-cape",
+      "slug": "dragonball-majin-buu-blue-cape",
+      "title": "Figura Dragon Ball - Majin Buu Blue Cape",
+      "price": 27600,
+      "image": "/img/products/figures/dragonball-majin-buu-blue-cape.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Majin Buu Blue Cape",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-majin-buu-slim",
+      "slug": "dragonball-majin-buu-slim",
+      "title": "Figura Dragon Ball - Majin Buu Slim",
+      "price": 23700,
+      "image": "/img/products/figures/dragonball-majin-buu-slim.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Majin Buu Slim",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-piccolo-namekians-set",
+      "slug": "dragonball-piccolo-namekians-set",
+      "title": "Figura Dragon Ball - Piccolo Namekians Set",
+      "price": 26200,
+      "image": "/img/products/figures/dragonball-piccolo-namekians-set.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Piccolo Namekians Set",
+      "tags": [
+        "Set"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-raditz",
+      "slug": "dragonball-raditz",
+      "title": "Figura Dragon Ball - Raditz",
+      "price": 22900,
+      "image": "/img/products/figures/dragonball-raditz.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Raditz",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-super-buu-slim",
+      "slug": "dragonball-super-buu-slim",
+      "title": "Figura Dragon Ball - Super Buu Slim",
+      "price": 22900,
+      "image": "/img/products/figures/dragonball-super-buu-slim.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Super Buu Slim",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-super-buu",
+      "slug": "dragonball-super-buu",
+      "title": "Figura Dragon Ball - Super Buu",
+      "price": 22600,
+      "image": "/img/products/figures/dragonball-super-buu.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Super Buu",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-tien-shinhan-01",
+      "slug": "dragonball-tien-shinhan-01",
+      "title": "Figura Dragon Ball - Tien Shinhan 01",
+      "price": 25000,
+      "image": "/img/products/figures/dragonball-tien-shinhan-01.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Tien Shinhan 01",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-tien-shinhan-02",
+      "slug": "dragonball-tien-shinhan-02",
+      "title": "Figura Dragon Ball - Tien Shinhan 02",
+      "price": 25100,
+      "image": "/img/products/figures/dragonball-tien-shinhan-02.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Tien Shinhan 02",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-whis-chibi",
+      "slug": "dragonball-whis-chibi",
+      "title": "Figura Dragon Ball - Whis Chibi",
+      "price": 25900,
+      "image": "/img/products/figures/dragonball-whis-chibi.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Whis Chibi",
+      "tags": [
+        "Chibi"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-yamcha-and-bulma-diorama",
+      "slug": "dragonball-yamcha-and-bulma-diorama",
+      "title": "Figura Dragon Ball - Yamcha y Bulma Diorama",
+      "price": 15900,
+      "image": "/img/products/figures/dragonball-yamcha-and-bulma-diorama.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Yamcha y Bulma Diorama",
+      "tags": [
+        "Diorama"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-yamcha",
+      "slug": "dragonball-yamcha",
+      "title": "Figura Dragon Ball - Yamcha",
+      "price": 18000,
+      "image": "/img/products/figures/dragonball-yamcha.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Yamcha",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "dragonball-zarbon",
+      "slug": "dragonball-zarbon",
+      "title": "Figura Dragon Ball - Zarbon",
+      "price": 26100,
+      "image": "/img/products/figures/dragonball-zarbon.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Zarbon",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "figure-goku-vs-nappa",
+      "slug": "figure-goku-vs-nappa",
+      "title": "Figura Dragon Ball - Goku vs Nappa",
+      "price": 16800,
+      "image": "/img/products/figures/figure-goku-vs-nappa.png",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Goku vs Nappa",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "jujutsu-kaisen-geto-suguru",
+      "slug": "jujutsu-kaisen-geto-suguru",
+      "title": "Figura Jujutsu Kaisen - Geto Suguru",
+      "price": 16500,
+      "image": "/img/products/figures/jujutsu-kaisen-geto-suguru.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "jujutsu-kaisen",
+        "name": "Jujutsu Kaisen"
+      },
+      "character": "Geto Suguru",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "jujutsu-kaisen-gojo-anime-heroes",
+      "slug": "jujutsu-kaisen-gojo-anime-heroes",
+      "title": "Figura Jujutsu Kaisen - Gojo",
+      "price": 22100,
+      "image": "/img/products/figures/jujutsu-kaisen-gojo-anime-heroes.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "jujutsu-kaisen",
+        "name": "Jujutsu Kaisen"
+      },
+      "character": "Gojo",
+      "tags": [
+        "Anime Heroes"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "jujutsu-kaisen-gojo-chair",
+      "slug": "jujutsu-kaisen-gojo-chair",
+      "title": "Figura Jujutsu Kaisen - Gojo Chair",
+      "price": 26800,
+      "image": "/img/products/figures/jujutsu-kaisen-gojo-chair.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "jujutsu-kaisen",
+        "name": "Jujutsu Kaisen"
+      },
+      "character": "Gojo Chair",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "jujutsu-kaisen-gojo-statue",
+      "slug": "jujutsu-kaisen-gojo-statue",
+      "title": "Figura Jujutsu Kaisen - Gojo Statue",
+      "price": 23500,
+      "image": "/img/products/figures/jujutsu-kaisen-gojo-statue.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "jujutsu-kaisen",
+        "name": "Jujutsu Kaisen"
+      },
+      "character": "Gojo Statue",
+      "tags": [
+        "Estatua"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "jujutsu-kaisen-yuji-itadori-anime-heroes",
+      "slug": "jujutsu-kaisen-yuji-itadori-anime-heroes",
+      "title": "Figura Jujutsu Kaisen - Yuji Itadori",
+      "price": 16200,
+      "image": "/img/products/figures/jujutsu-kaisen-yuji-itadori-anime-heroes.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "jujutsu-kaisen",
+        "name": "Jujutsu Kaisen"
+      },
+      "character": "Yuji Itadori",
+      "tags": [
+        "Anime Heroes"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "mha-aizawa-eraserhead",
+      "slug": "mha-aizawa-eraserhead",
+      "title": "Figura My Hero Academia - Aizawa Eraserhead",
+      "price": 20800,
+      "image": "/img/products/figures/mha-aizawa-eraserhead.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "my-hero-academia",
+        "name": "My Hero Academia"
+      },
+      "character": "Aizawa Eraserhead",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "mha-deku-crouching",
+      "slug": "mha-deku-crouching",
+      "title": "Figura My Hero Academia - Deku Crouching",
+      "price": 18600,
+      "image": "/img/products/figures/mha-deku-crouching.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "my-hero-academia",
+        "name": "My Hero Academia"
+      },
+      "character": "Deku Crouching",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "mha-deku-running",
+      "slug": "mha-deku-running",
+      "title": "Figura My Hero Academia - Deku Running",
+      "price": 20200,
+      "image": "/img/products/figures/mha-deku-running.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "my-hero-academia",
+        "name": "My Hero Academia"
+      },
+      "character": "Deku Running",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "mha-jiro",
+      "slug": "mha-jiro",
+      "title": "Figura My Hero Academia - Jiro",
+      "price": 17000,
+      "image": "/img/products/figures/mha-jiro.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "my-hero-academia",
+        "name": "My Hero Academia"
+      },
+      "character": "Jiro",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "mha-kirishima",
+      "slug": "mha-kirishima",
+      "title": "Figura My Hero Academia - Kirishima",
+      "price": 20900,
+      "image": "/img/products/figures/mha-kirishima.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "my-hero-academia",
+        "name": "My Hero Academia"
+      },
+      "character": "Kirishima",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "mha-momo-yaoyorozu",
+      "slug": "mha-momo-yaoyorozu",
+      "title": "Figura My Hero Academia - Momo Yaoyorozu",
+      "price": 26600,
+      "image": "/img/products/figures/mha-momo-yaoyorozu.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "my-hero-academia",
+        "name": "My Hero Academia"
+      },
+      "character": "Momo Yaoyorozu",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "naruto-hinata-chibi",
+      "slug": "naruto-hinata-chibi",
+      "title": "Figura Naruto - Hinata Chibi",
+      "price": 22800,
+      "image": "/img/products/figures/naruto-hinata-chibi.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "naruto",
+        "name": "Naruto"
+      },
+      "character": "Hinata Chibi",
+      "tags": [
+        "Chibi"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "naruto-kakashi",
+      "slug": "naruto-kakashi",
+      "title": "Figura Naruto - Kakashi",
+      "price": 19500,
+      "image": "/img/products/figures/naruto-kakashi.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "naruto",
+        "name": "Naruto"
+      },
+      "character": "Kakashi",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "naruto-kurama-mode",
+      "slug": "naruto-kurama-mode",
+      "title": "Figura Naruto - Kurama Mode",
+      "price": 19500,
+      "image": "/img/products/figures/naruto-kurama-mode.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "naruto",
+        "name": "Naruto"
+      },
+      "character": "Kurama Mode",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "naruto-sakura-chibi",
+      "slug": "naruto-sakura-chibi",
+      "title": "Figura Naruto - Sakura Chibi",
+      "price": 16400,
+      "image": "/img/products/figures/naruto-sakura-chibi.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "naruto",
+        "name": "Naruto"
+      },
+      "character": "Sakura Chibi",
+      "tags": [
+        "Chibi"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "one-piece-uta",
+      "slug": "one-piece-uta",
+      "title": "Figura One Piece - Uta",
+      "price": 16400,
+      "image": "/img/products/figures/one-piece-uta.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "one-piece",
+        "name": "One Piece"
+      },
+      "character": "Uta",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "pokemon-pikachu",
+      "slug": "pokemon-pikachu",
+      "title": "Figura Pokémon - Pikachu",
+      "price": 19300,
+      "image": "/img/products/figures/pokemon-pikachu.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "pokemon",
+        "name": "Pokémon"
+      },
+      "character": "Pikachu",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "sailor-moon-chibi-01",
+      "slug": "sailor-moon-chibi-01",
+      "title": "Figura Sailor Moon - Chibi 01",
+      "price": 19100,
+      "image": "/img/products/figures/sailor-moon-chibi-01.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "sailor-moon",
+        "name": "Sailor Moon"
+      },
+      "character": "Chibi 01",
+      "tags": [
+        "Chibi"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "sailor-moon-chibi-02",
+      "slug": "sailor-moon-chibi-02",
+      "title": "Figura Sailor Moon - Chibi 02",
+      "price": 19200,
+      "image": "/img/products/figures/sailor-moon-chibi-02.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "sailor-moon",
+        "name": "Sailor Moon"
+      },
+      "character": "Chibi 02",
+      "tags": [
+        "Chibi"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "sailor-moon-classic",
+      "slug": "sailor-moon-classic",
+      "title": "Figura Sailor Moon - Classic",
+      "price": 17500,
+      "image": "/img/products/figures/sailor-moon-classic.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "sailor-moon",
+        "name": "Sailor Moon"
+      },
+      "character": "Classic",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "sailor-moon-super-glitter",
+      "slug": "sailor-moon-super-glitter",
+      "title": "Figura Sailor Moon - Super Glitter",
+      "price": 21500,
+      "image": "/img/products/figures/sailor-moon-super-glitter.png",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "sailor-moon",
+        "name": "Sailor Moon"
+      },
+      "character": "Super Glitter",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "sailor-pluto-qposket",
+      "slug": "sailor-pluto-qposket",
+      "title": "Figura Sailor Moon - Pluto",
+      "price": 23700,
+      "image": "/img/products/figures/sailor-pluto-qposket.webp",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "sailor-moon",
+        "name": "Sailor Moon"
+      },
+      "character": "Pluto",
+      "tags": [
+        "Q Posket"
+      ],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "saint-seiya-aphrodite-pisces",
+      "slug": "saint-seiya-aphrodite-pisces",
+      "title": "Figura Saint Seiya - Aphrodite Pisces",
+      "price": 19000,
+      "image": "/img/products/figures/saint-seiya-aphrodite-pisces.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "saint-seiya",
+        "name": "Saint Seiya"
+      },
+      "character": "Aphrodite Pisces",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "saint-seiya-gold-saint-01",
+      "slug": "saint-seiya-gold-saint-01",
+      "title": "Figura Saint Seiya - Gold 01",
+      "price": 26300,
+      "image": "/img/products/figures/saint-seiya-gold-saint-01.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "saint-seiya",
+        "name": "Saint Seiya"
+      },
+      "character": "Gold 01",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "saint-seiya-gold-saint-02",
+      "slug": "saint-seiya-gold-saint-02",
+      "title": "Figura Saint Seiya - Gold 02",
+      "price": 26400,
+      "image": "/img/products/figures/saint-seiya-gold-saint-02.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "saint-seiya",
+        "name": "Saint Seiya"
+      },
+      "character": "Gold 02",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "saint-seiya-gold-saint-03",
+      "slug": "saint-seiya-gold-saint-03",
+      "title": "Figura Saint Seiya - Gold 03",
+      "price": 26500,
+      "image": "/img/products/figures/saint-seiya-gold-saint-03.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "saint-seiya",
+        "name": "Saint Seiya"
+      },
+      "character": "Gold 03",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "saint-seiya-mu-aries",
+      "slug": "saint-seiya-mu-aries",
+      "title": "Figura Saint Seiya - Mu Aries",
+      "price": 18700,
+      "image": "/img/products/figures/saint-seiya-mu-aries.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "saint-seiya",
+        "name": "Saint Seiya"
+      },
+      "character": "Mu Aries",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "spy-x-family-anya-forger",
+      "slug": "spy-x-family-anya-forger",
+      "title": "Figura Spy x Family - Anya Forger",
+      "price": 22000,
+      "image": "/img/products/figures/spy-x-family-anya-forger.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "spy-x-family",
+        "name": "Spy x Family"
+      },
+      "character": "Anya Forger",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "spy-x-family-loid-forger",
+      "slug": "spy-x-family-loid-forger",
+      "title": "Figura Spy x Family - Loid Forger",
+      "price": 20500,
+      "image": "/img/products/figures/spy-x-family-loid-forger.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "spy-x-family",
+        "name": "Spy x Family"
+      },
+      "character": "Loid Forger",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "spy-x-family-yor-forger",
+      "slug": "spy-x-family-yor-forger",
+      "title": "Figura Spy x Family - Yor Forger",
+      "price": 27400,
+      "image": "/img/products/figures/spy-x-family-yor-forger.jpg",
+      "category": {
+        "slug": "figuras",
+        "name": "Figuras"
+      },
+      "saga": {
+        "slug": "spy-x-family",
+        "name": "Spy x Family"
+      },
+      "character": "Yor Forger",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "keychain-predator",
+      "slug": "keychain-predator",
+      "title": "Llavero Predator",
+      "price": 4000,
+      "image": "/img/products/keychains/keychain-predator.png",
+      "category": {
+        "slug": "llaveros",
+        "name": "Llaveros"
+      },
+      "saga": {
+        "slug": "predator",
+        "name": "Predator"
+      },
+      "character": "Predator",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-kirby",
+      "slug": "plush-kirby",
+      "title": "Peluche Kirby",
+      "price": 11600,
+      "image": "/img/products/plush/plush-kirby.webp",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "kirby",
+        "name": "Kirby"
+      },
+      "character": "Kirby",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    }
+  ]
+}

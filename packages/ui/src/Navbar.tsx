@@ -1,21 +1,33 @@
+import type { ReactNode } from "react";
 import type { NavLink } from "./types";
+import { FavoritesLink } from "./FavoritesLink";
 
 export interface NavbarProps {
   brand: string;
   links: NavLink[];
   /** Cantidad de items en el carrito (visual, por ahora) */
   cartCount?: number;
+  /** Slot para el buscador (ej. <SearchBox items={...} />). */
+  search?: ReactNode;
 }
 
-export function Navbar({ brand, links, cartCount = 0 }: NavbarProps) {
+export function Navbar({ brand, links, cartCount = 0, search }: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-black/5 bg-white/80 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6">
-        <a href="/" className="text-xl font-extrabold tracking-tight text-brand">
-          {brand}
+      <div className="mx-auto flex h-16 max-w-6xl items-center gap-4 px-4 sm:px-6">
+        <a href="/" className="shrink-0">
+          <img
+            src="/img/logo/logo.png"
+            alt="Purcuá"
+            className="h-14 w-14 object-contain"
+          />
         </a>
 
-        <nav className="hidden items-center gap-6 md:flex">
+        {search ? (
+          <div className="hidden flex-1 sm:block sm:max-w-sm">{search}</div>
+        ) : null}
+
+        <nav className="ml-auto hidden items-center gap-6 md:flex">
           {links.map((link) => (
             <a
               key={link.href}
@@ -28,13 +40,7 @@ export function Navbar({ brand, links, cartCount = 0 }: NavbarProps) {
         </nav>
 
         <div className="flex items-center gap-3">
-          <button
-            type="button"
-            aria-label="Buscar"
-            className="hidden rounded-full p-2 text-black/60 transition hover:bg-black/5 sm:inline-flex"
-          >
-            <SearchIcon />
-          </button>
+          <FavoritesLink href="/favoritos" />
           <button
             type="button"
             aria-label="Carrito"
@@ -50,15 +56,6 @@ export function Navbar({ brand, links, cartCount = 0 }: NavbarProps) {
         </div>
       </div>
     </header>
-  );
-}
-
-function SearchIcon() {
-  return (
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-      <circle cx="11" cy="11" r="8" />
-      <path d="m21 21-4.3-4.3" />
-    </svg>
   );
 }
 

@@ -2,6 +2,13 @@
 export type { Product, NavLink } from "./types";
 export { formatPrice } from "./format";
 
+// Favoritos (Context + localStorage)
+export { FavoritesProvider, useFavorites } from "./FavoritesContext";
+export { FavoriteButton } from "./FavoriteButton";
+export type { FavoriteButtonProps } from "./FavoriteButton";
+export { FavoritesLink } from "./FavoritesLink";
+export type { FavoritesLinkProps } from "./FavoritesLink";
+
 // Componentes base
 export { Button } from "./Button";
 export type { ButtonProps } from "./Button";
@@ -11,8 +18,12 @@ export type { HeroProps } from "./Hero";
 // Componentes de tienda
 export { Navbar } from "./Navbar";
 export type { NavbarProps } from "./Navbar";
+export { SearchBox } from "./SearchBox";
+export type { SearchBoxProps, SearchItem } from "./SearchBox";
 export { Banner } from "./Banner";
 export type { BannerProps } from "./Banner";
+export { BannerCarousel } from "./BannerCarousel";
+export type { BannerCarouselProps, CarouselSlide } from "./BannerCarousel";
 export { CategoryBar } from "./CategoryBar";
 export type { CategoryBarProps } from "./CategoryBar";
 export { SectionHeading } from "./SectionHeading";

@@ -15,6 +15,12 @@ export interface FooterProps {
   shippingMethods?: string[];
   whatsapp?: string;
   instagram?: string;
+  /** Dirección en texto (ej. "Av. Siempreviva 742, Santa Fe"). */
+  address?: string;
+  /** URL del iframe de Google Maps (embed). Si se pasa, muestra el mapa. */
+  mapEmbedUrl?: string;
+  /** Link para abrir la ubicación en Google Maps (al tocar "Cómo llegar"). */
+  mapHref?: string;
 }
 
 export function Footer({
@@ -25,6 +31,9 @@ export function Footer({
   shippingMethods = [],
   whatsapp,
   instagram,
+  address,
+  mapEmbedUrl,
+  mapHref,
 }: FooterProps) {
   const year = new Date().getFullYear();
 
@@ -58,7 +67,7 @@ export function Footer({
               </h3>
               <ul className="mt-3 space-y-2">
                 {col.links.map((link) => (
-                  <li key={link.href}>
+                  <li key={link.label}>
                     <a
                       href={link.href}
                       className="text-sm text-black/55 transition hover:text-brand"
@@ -71,6 +80,37 @@ export function Footer({
             </div>
           ))}
         </div>
+
+        {mapEmbedUrl ? (
+          <div className="mt-10 grid gap-6 border-t border-black/5 pt-8 md:grid-cols-[1fr_1.4fr]">
+            <div>
+              <h3 className="text-sm font-bold uppercase tracking-wide text-black/70">
+                Dónde estamos
+              </h3>
+              {address ? (
+                <p className="mt-3 max-w-xs text-sm text-black/60">{address}</p>
+              ) : null}
+              {mapHref ? (
+                <a
+                  href={mapHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 inline-block text-sm font-semibold text-brand hover:underline"
+                >
+                  Cómo llegar →
+                </a>
+              ) : null}
+            </div>
+            <iframe
+              src={mapEmbedUrl}
+              title={`Ubicación de ${brand}`}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              allowFullScreen
+              className="h-64 w-full rounded-2xl border-0 shadow-sm ring-1 ring-black/5"
+            />
+          </div>
+        ) : null}
 
         {(paymentMethods.length > 0 || shippingMethods.length > 0) && (
           <div className="mt-10 grid gap-6 border-t border-black/5 pt-8 sm:grid-cols-2">

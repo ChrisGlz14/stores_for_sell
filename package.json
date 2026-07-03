@@ -8,7 +8,8 @@
     "build": "turbo run build",
     "lint": "turbo run lint",
     "start": "turbo run start",
-    "nueva-tienda": "node scripts/new-store.mjs"
+    "nueva-tienda": "node scripts/new-store.mjs",
+    "catalogo": "node scripts/gen-catalog.mjs"
   },
   "devDependencies": {
     "turbo": "^2.5.8",

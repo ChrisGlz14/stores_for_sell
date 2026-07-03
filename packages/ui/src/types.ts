@@ -12,6 +12,10 @@ export interface Product {
   /** Etiqueta opcional: "Nuevo", "Oferta", etc. */
   badge?: string;
   category?: string;
+  /** Descripción corta que se muestra en la card. */
+  description?: string;
+  /** Atributos en forma de "pills" (ej. ["EU38", "Negro"] o ["Dragon Ball"]). */
+  tags?: string[];
 }
 
 export interface NavLink {

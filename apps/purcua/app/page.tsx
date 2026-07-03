@@ -1,6 +1,7 @@
 import {
   Navbar,
-  Banner,
+  SearchBox,
+  BannerCarousel,
   CategoryBar,
   SectionHeading,
   ProductGrid,
@@ -8,28 +9,32 @@ import {
 } from "@repo/ui";
 import {
   navLinks,
+  heroSlides,
   categories,
-  nuevosIngresos,
-  personalizados,
   footerColumns,
+  storeLocation,
 } from "./data";
+import { getSearchItems, getAllProducts, toCard } from "./lib/catalog";
 
 const BRAND = "Purcuá";
 
 export default function Home() {
+  // Productos reales del catálogo para las secciones de la home.
+  const productos = getAllProducts();
+  const nuevosIngresos = productos.slice(10, 18).map(toCard); // figuras
+  const personalizados = productos.slice(0, 8).map(toCard); // aros/otros
+
   return (
     <>
-      <Navbar brand={BRAND} links={navLinks} cartCount={2} />
+      <Navbar
+        brand={BRAND}
+        links={navLinks}
+        cartCount={2}
+        search={<SearchBox items={getSearchItems()} />}
+      />
 
       <main className="flex-1">
-        <Banner
-          eyebrow="Envíos a todo el país"
-          title="Coleccionables, anime y todo lo que amás"
-          subtitle="Figuras, peluches, accesorios y papelería personalizada. Encontrá tu próximo favorito."
-          ctaLabel="Ver novedades"
-          ctaHref="#nuevos"
-          art="🎁"
-        />
+        <BannerCarousel slides={heroSlides} interval={6000} />
 
         <CategoryBar categories={categories} />
 
@@ -43,7 +48,10 @@ export default function Home() {
               </a>
             }
           />
-          <ProductGrid products={nuevosIngresos} />
+          <ProductGrid
+            products={nuevosIngresos}
+            getHref={(p) => `/producto/${p.id}`}
+          />
         </section>
 
         <section id="personalizados" className="bg-brand-soft/30 py-14">
@@ -52,7 +60,10 @@ export default function Home() {
               title="Papelería personalizada"
               subtitle="Para cumples y emprendimientos: lo hacemos a tu medida"
             />
-            <ProductGrid products={personalizados} />
+            <ProductGrid
+              products={personalizados}
+              getHref={(p) => `/producto/${p.id}`}
+            />
           </div>
         </section>
       </main>
@@ -65,6 +76,9 @@ export default function Home() {
         shippingMethods={["Correo Argentino", "Andreani", "Retiro en local"]}
         whatsapp="5491100000000"
         instagram="https://instagram.com"
+        address={storeLocation.address}
+        mapEmbedUrl={storeLocation.mapEmbedUrl}
+        mapHref={storeLocation.mapHref}
       />
     </>
   );
