@@ -79,8 +79,8 @@ export function ProductCard({ product, href }: ProductCardProps) {
           </p>
         ) : null}
 
-        {/* Precio + botón */}
-        <div className="mt-auto flex items-end justify-between gap-3 pt-2">
+        {/* Precio + botón (apilado en mobile, lado a lado desde sm) */}
+        <div className="mt-auto flex flex-col gap-3 pt-2 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <span className="block text-[11px] font-semibold uppercase tracking-widest text-black/40">
               Precio
@@ -103,7 +103,7 @@ export function ProductCard({ product, href }: ProductCardProps) {
               price,
               image,
             }}
-            className="shrink-0 px-4 py-2.5 text-sm"
+            className="w-full px-4 py-2.5 text-sm sm:w-auto sm:shrink-0"
           />
         </div>
       </div>
