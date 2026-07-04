@@ -14,7 +14,7 @@ const BRAND = "Mi Tienda";
 export default function Home() {
   return (
     <>
-      <Navbar brand={BRAND} links={navLinks} cartCount={0} />
+      <Navbar brand={BRAND} links={navLinks} />
 
       <main className="flex-1">
         <Banner

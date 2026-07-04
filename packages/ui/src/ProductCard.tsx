@@ -1,6 +1,7 @@
 import type { Product } from "./types";
 import { formatPrice } from "./format";
 import { FavoriteButton } from "./FavoriteButton";
+import { AddToCartButton } from "./AddToCartButton";
 
 export interface ProductCardProps {
   product: Product;
@@ -40,7 +41,11 @@ export function ProductCard({ product, href }: ProductCardProps) {
       {/* Imagen + botón de favorito */}
       <div className="relative">
         {href ? <a href={href}>{media}</a> : media}
-        <FavoriteButton productId={product.id} className="absolute right-3 top-3" />
+        <FavoriteButton
+          productId={product.id}
+          productName={name}
+          className="absolute right-3 top-3"
+        />
       </div>
 
       {/* Info */}
@@ -91,12 +96,15 @@ export function ProductCard({ product, href }: ProductCardProps) {
               ) : null}
             </div>
           </div>
-          <button
-            type="button"
-            className="shrink-0 rounded-xl bg-brand px-4 py-2.5 text-sm font-semibold text-white transition hover:opacity-90"
-          >
-            Agregar
-          </button>
+          <AddToCartButton
+            product={{
+              id: product.id,
+              name,
+              price,
+              image,
+            }}
+            className="shrink-0 px-4 py-2.5 text-sm"
+          />
         </div>
       </div>
     </article>

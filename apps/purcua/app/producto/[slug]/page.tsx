@@ -11,7 +11,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { formatPrice, FavoriteButton } from "@repo/ui";
+import {
+  formatPrice,
+  FavoriteButton,
+  AddToCartButton,
+  StockNotice,
+} from "@repo/ui";
 import { getAllProducts, getProductBySlug, getRelated } from "../../lib/catalog";
 
 // 1) generateStaticParams: le dice a Next QUÉ slugs existen, así genera
@@ -53,6 +58,8 @@ export default async function ProductoPage({
 
   return (
     <main className="mx-auto max-w-5xl px-4 py-10 sm:px-6">
+      <StockNotice />
+
       {/* Link = navegación del lado del cliente (sin recargar la página). */}
       <Link href="/" className="text-sm text-brand hover:underline">
         ← Volver a la tienda
@@ -70,6 +77,7 @@ export default async function ProductoPage({
           />
           <FavoriteButton
             productId={product.slug}
+            productName={product.title}
             className="absolute right-3 top-3 z-10"
           />
         </div>
@@ -107,12 +115,16 @@ export default async function ProductoPage({
             )}
           </p>
 
-          <button
-            type="button"
-            className="mt-6 w-full rounded-xl bg-brand px-6 py-3 font-semibold text-white transition hover:opacity-90 sm:w-auto"
-          >
-            Agregar al carrito
-          </button>
+          <AddToCartButton
+            product={{
+              id: product.slug,
+              name: product.title,
+              price: product.price,
+              image: product.image,
+            }}
+            label="Agregar al carrito"
+            className="mt-6 w-full px-6 py-3 sm:w-auto"
+          />
         </div>
       </div>
 

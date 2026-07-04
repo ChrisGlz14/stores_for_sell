@@ -52,7 +52,6 @@ export default async function CategoriaPage({
       <Navbar
         brand={BRAND}
         links={navLinks}
-        cartCount={0}
         search={<SearchBox items={getSearchItems()} />}
       />
 

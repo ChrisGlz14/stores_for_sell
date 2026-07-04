@@ -5,6 +5,7 @@ import {
   CategoryBar,
   SectionHeading,
   ProductGrid,
+  InstagramSection,
   Footer,
 } from "@repo/ui";
 import {
@@ -13,6 +14,7 @@ import {
   categories,
   footerColumns,
   storeLocation,
+  storeInstagram,
 } from "./data";
 import { getSearchItems, getAllProducts, toCard } from "./lib/catalog";
 
@@ -29,7 +31,6 @@ export default function Home() {
       <Navbar
         brand={BRAND}
         links={navLinks}
-        cartCount={2}
         search={<SearchBox items={getSearchItems()} />}
       />
 
@@ -66,6 +67,11 @@ export default function Home() {
             />
           </div>
         </section>
+
+        <InstagramSection
+          user={storeInstagram.user}
+          postUrls={storeInstagram.posts}
+        />
       </main>
 
       <Footer

@@ -34,7 +34,7 @@ const PRICE_RANGE = {
 
 // Detección de saga/franquicia a partir del slug. Orden = prioridad.
 const FRANCHISES = [
-  { match: (s) => s.startsWith("dragonball") || s.startsWith("figure-goku"), slug: "dragon-ball", name: "Dragon Ball", drop: ["dragonball", "figure"] },
+  { match: (s) => s.startsWith("dragonball") || s.startsWith("goku") || s.startsWith("vegeta"), slug: "dragon-ball", name: "Dragon Ball", drop: ["dragonball"] },
   { match: (s) => s.startsWith("jujutsu-kaisen"), slug: "jujutsu-kaisen", name: "Jujutsu Kaisen", drop: ["jujutsu", "kaisen"] },
   { match: (s) => s.startsWith("naruto"), slug: "naruto", name: "Naruto", drop: ["naruto"] },
   { match: (s) => s.startsWith("mha"), slug: "my-hero-academia", name: "My Hero Academia", drop: ["mha"] },
@@ -51,6 +51,14 @@ const FRANCHISES = [
   { match: (s) => s.includes("kirby"), slug: "kirby", name: "Kirby", drop: [] },
   { match: (s) => s.includes("predator"), slug: "predator", name: "Predator", drop: [] },
   { match: (s) => s.includes("patrick"), slug: "bob-esponja", name: "Bob Esponja", drop: [] },
+  { match: (s) => s.startsWith("brawl-stars"), slug: "brawl-stars", name: "Brawl Stars", drop: ["brawl", "stars"] },
+  { match: (s) => s.startsWith("minecraft"), slug: "minecraft", name: "Minecraft", drop: ["minecraft"] },
+  { match: (s) => s.startsWith("mario"), slug: "super-mario", name: "Super Mario", drop: ["mario"] },
+  { match: (s) => s.startsWith("captain-america"), slug: "marvel", name: "Marvel", drop: [] },
+  { match: (s) => s.startsWith("death-note"), slug: "death-note", name: "Death Note", drop: ["death", "note"] },
+  { match: (s) => s.startsWith("garfield"), slug: "garfield", name: "Garfield", drop: [] },
+  { match: (s) => s.startsWith("powerpuff"), slug: "powerpuff-girls", name: "Chicas Superpoderosas", drop: ["powerpuff"] },
+  { match: (s) => s.startsWith("stray-kids") || s.includes("skzoo"), slug: "stray-kids", name: "Stray Kids", drop: ["stray", "kids"] },
 ];
 const FRANCHISE_DEFAULT = { slug: "otros", name: "Otros", drop: [] };
 
@@ -71,7 +79,7 @@ const PAYMENT_NAMES = {
 const SHIPPING_NAMES = { "correo-argentino": "Correo Argentino" };
 
 // Acrónimos que van en mayúscula al titular
-const UPPER = new Set(["rj", "bt21", "afip", "jhr"]);
+const UPPER = new Set(["rj", "bt21", "afip", "jhr", "ssj"]);
 
 // ---- Helpers ---------------------------------------------------------------
 
@@ -125,7 +133,14 @@ for (const folder of Object.keys(CATEGORIES)) {
 
   for (const file of files) {
     const slug = stripExt(file);
-    const franchise = detectFranchise(slug);
+    // Para detectar la franquicia sacamos el prefijo de categoría
+    // (plush-/figure-/earrings-/keychain-), así "plush-dragonball-..."
+    // igual matchea Dragon Ball.
+    const matchSlug = slug.replace(
+      /^(plush|earrings|earring|keychain|keychains|figure|figures)-/,
+      "",
+    );
+    const franchise = detectFranchise(matchSlug);
     let tokens = slug.split("-");
 
     // sacar el token de categoría inicial (earrings/figure/keychain/plush)

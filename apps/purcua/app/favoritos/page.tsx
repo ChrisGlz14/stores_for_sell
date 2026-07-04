@@ -31,7 +31,6 @@ export default function FavoritosPage() {
       <Navbar
         brand={BRAND}
         links={navLinks}
-        cartCount={0}
         search={<SearchBox items={getSearchItems()} />}
       />
 

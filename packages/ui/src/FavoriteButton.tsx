@@ -1,15 +1,23 @@
 "use client";
 
 import { useFavorites } from "./FavoritesContext";
+import { useToast } from "./ToastContext";
 
 export interface FavoriteButtonProps {
   productId: string;
+  /** Nombre del producto (para el aviso "Agregaste X a favoritos"). */
+  productName?: string;
   /** Clases extra (ej. para posicionarlo: "absolute right-3 top-3"). */
   className?: string;
 }
 
-export function FavoriteButton({ productId, className = "" }: FavoriteButtonProps) {
+export function FavoriteButton({
+  productId,
+  productName,
+  className = "",
+}: FavoriteButtonProps) {
   const { isFavorite, toggle, hydrated } = useFavorites();
+  const { showToast } = useToast();
   // Antes de hidratar mostramos el corazón "vacío" (igual que en el server),
   // así el primer render coincide y no hay hydration mismatch.
   const active = hydrated && isFavorite(productId);
@@ -22,7 +30,11 @@ export function FavoriteButton({ productId, className = "" }: FavoriteButtonProp
       onClick={(e) => {
         e.preventDefault(); // por si está dentro de un enlace
         e.stopPropagation();
+        const willAdd = !isFavorite(productId);
         toggle(productId);
+        if (willAdd && productName) {
+          showToast(`Agregaste ${productName} a favoritos`);
+        }
       }}
       className={`grid h-9 w-9 place-items-center rounded-full bg-white/80 shadow-sm backdrop-blur transition hover:bg-white ${
         active ? "text-accent" : "text-black/60 hover:text-accent"

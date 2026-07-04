@@ -2,12 +2,33 @@
 export type { Product, NavLink } from "./types";
 export { formatPrice } from "./format";
 
+// Avisos temporales (toasts)
+export { ToastProvider, useToast } from "./ToastContext";
+// Aviso flotante de stock
+export { StockNotice } from "./StockNotice";
+export type { StockNoticeProps } from "./StockNotice";
+
+// Instagram
+export { InstagramEmbed } from "./InstagramEmbed";
+export type { InstagramEmbedProps } from "./InstagramEmbed";
+export { InstagramSection } from "./InstagramSection";
+export type { InstagramSectionProps } from "./InstagramSection";
+
 // Favoritos (Context + localStorage)
 export { FavoritesProvider, useFavorites } from "./FavoritesContext";
 export { FavoriteButton } from "./FavoriteButton";
 export type { FavoriteButtonProps } from "./FavoriteButton";
 export { FavoritesLink } from "./FavoritesLink";
 export type { FavoritesLinkProps } from "./FavoritesLink";
+
+// Carrito (Context + localStorage + panel lateral)
+export { CartProvider, useCart } from "./CartContext";
+export type { CartItem } from "./CartContext";
+export { CartButton } from "./CartButton";
+export { AddToCartButton } from "./AddToCartButton";
+export type { AddToCartButtonProps } from "./AddToCartButton";
+export { CheckoutForm } from "./CheckoutForm";
+export type { CheckoutFormProps, CheckoutData } from "./CheckoutForm";
 
 // Componentes base
 export { Button } from "./Button";

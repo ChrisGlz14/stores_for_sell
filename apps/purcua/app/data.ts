@@ -1,5 +1,14 @@
 import type { NavLink, Product, FooterColumn, CarouselSlide } from "@repo/ui";
 
+// Instagram de la tienda. Pegá links de POSTS (no del perfil) para mostrarlos.
+export const storeInstagram = {
+  user: "purcuatienda",
+  posts: [
+    "https://www.instagram.com/p/C6UT66PRAbG/", // carrusel de imágenes
+    "https://www.instagram.com/p/DW4puWTEeBV/", // video
+  ] as string[],
+};
+
 // Ubicación de la tienda (para el mapa del footer).
 export const storeLocation = {
   address: "Purcuá Tienda · Santa Fe, Argentina",

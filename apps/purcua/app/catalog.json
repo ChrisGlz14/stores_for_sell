@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "generatedAt": "2026-07-03T04:03:49.520Z",
+    "generatedAt": "2026-07-03T23:32:06.869Z",
     "source": "apps/purcua/public/img",
     "note": "Generado con `pnpm catalogo`. Editá precios/destacados a mano o volvé a correr el script.",
-    "totalProducts": 82
+    "totalProducts": 112
   },
   "store": {
     "name": "Purcuá",
-    "logo": "/img/logo/logo-purcua.png",
+    "logo": "/img/logo/logo.png",
     "banners": [
       {
         "slug": "banner-custom-products",
@@ -23,11 +23,6 @@
         "slug": "banner-installments-shipping",
         "name": "Banner Installments Shipping",
         "image": "/img/banners/banner-installments-shipping.jpg"
-      },
-      {
-        "slug": "banner-merch-anime",
-        "name": "Banner Merch Anime",
-        "image": "/img/banners/banner-merch-anime.jpg"
       }
     ],
     "customWork": [
@@ -156,14 +151,19 @@
     {
       "slug": "peluches",
       "name": "Peluches",
-      "count": 1
+      "count": 31
     }
   ],
   "sagas": [
     {
       "slug": "dragon-ball",
       "name": "Dragon Ball",
-      "count": 38
+      "count": 41
+    },
+    {
+      "slug": "bt21",
+      "name": "BT21 (BTS)",
+      "count": 7
     },
     {
       "slug": "my-hero-academia",
@@ -171,13 +171,18 @@
       "count": 6
     },
     {
-      "slug": "bt21",
-      "name": "BT21 (BTS)",
-      "count": 5
+      "slug": "naruto",
+      "name": "Naruto",
+      "count": 6
     },
     {
       "slug": "jujutsu-kaisen",
       "name": "Jujutsu Kaisen",
+      "count": 5
+    },
+    {
+      "slug": "pokemon",
+      "name": "Pokémon",
       "count": 5
     },
     {
@@ -191,13 +196,18 @@
       "count": 5
     },
     {
-      "slug": "naruto",
-      "name": "Naruto",
-      "count": 4
+      "slug": "otros",
+      "name": "Otros",
+      "count": 5
     },
     {
       "slug": "spy-x-family",
       "name": "Spy x Family",
+      "count": 3
+    },
+    {
+      "slug": "stray-kids",
+      "name": "Stray Kids",
       "count": 3
     },
     {
@@ -213,16 +223,26 @@
     {
       "slug": "bob-esponja",
       "name": "Bob Esponja",
-      "count": 1
-    },
-    {
-      "slug": "bleach",
-      "name": "Bleach",
-      "count": 1
+      "count": 2
     },
     {
       "slug": "chainsaw-man",
       "name": "Chainsaw Man",
+      "count": 2
+    },
+    {
+      "slug": "brawl-stars",
+      "name": "Brawl Stars",
+      "count": 2
+    },
+    {
+      "slug": "minecraft",
+      "name": "Minecraft",
+      "count": 2
+    },
+    {
+      "slug": "bleach",
+      "name": "Bleach",
       "count": 1
     },
     {
@@ -231,18 +251,38 @@
       "count": 1
     },
     {
-      "slug": "pokemon",
-      "name": "Pokémon",
-      "count": 1
-    },
-    {
       "slug": "predator",
       "name": "Predator",
       "count": 1
     },
     {
+      "slug": "marvel",
+      "name": "Marvel",
+      "count": 1
+    },
+    {
+      "slug": "death-note",
+      "name": "Death Note",
+      "count": 1
+    },
+    {
+      "slug": "garfield",
+      "name": "Garfield",
+      "count": 1
+    },
+    {
       "slug": "kirby",
       "name": "Kirby",
+      "count": 1
+    },
+    {
+      "slug": "super-mario",
+      "name": "Super Mario",
+      "count": 1
+    },
+    {
+      "slug": "powerpuff-girls",
+      "name": "Chicas Superpoderosas",
       "count": 1
     }
   ],
@@ -1823,6 +1863,272 @@
       "featured": false
     },
     {
+      "id": "plush-brawl-stars-colt",
+      "slug": "plush-brawl-stars-colt",
+      "title": "Peluche Brawl Stars - Colt",
+      "price": 13600,
+      "image": "/img/products/plush/plush-brawl-stars-colt.webp",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "brawl-stars",
+        "name": "Brawl Stars"
+      },
+      "character": "Colt",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-brawl-stars-leon",
+      "slug": "plush-brawl-stars-leon",
+      "title": "Peluche Brawl Stars - Leon",
+      "price": 11100,
+      "image": "/img/products/plush/plush-brawl-stars-leon.webp",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "brawl-stars",
+        "name": "Brawl Stars"
+      },
+      "character": "Leon",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-bt21-chimmy",
+      "slug": "plush-bt21-chimmy",
+      "title": "Peluche BT21 (BTS) - Chimmy",
+      "price": 14200,
+      "image": "/img/products/plush/plush-bt21-chimmy.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "bt21",
+        "name": "BT21 (BTS)"
+      },
+      "character": "Chimmy",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-bt21-koya",
+      "slug": "plush-bt21-koya",
+      "title": "Peluche BT21 (BTS) - Koya",
+      "price": 11700,
+      "image": "/img/products/plush/plush-bt21-koya.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "bt21",
+        "name": "BT21 (BTS)"
+      },
+      "character": "Koya",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-cafe-duck",
+      "slug": "plush-cafe-duck",
+      "title": "Peluche Cafe Duck",
+      "price": 14100,
+      "image": "/img/products/plush/plush-cafe-duck.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "otros",
+        "name": "Otros"
+      },
+      "character": "Cafe Duck",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-captain-america",
+      "slug": "plush-captain-america",
+      "title": "Peluche Marvel - Captain America",
+      "price": 13500,
+      "image": "/img/products/plush/plush-captain-america.png",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "marvel",
+        "name": "Marvel"
+      },
+      "character": "Captain America",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-chainsaw-man-denji",
+      "slug": "plush-chainsaw-man-denji",
+      "title": "Peluche Chainsaw Man - Denji",
+      "price": 11900,
+      "image": "/img/products/plush/plush-chainsaw-man-denji.webp",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "chainsaw-man",
+        "name": "Chainsaw Man"
+      },
+      "character": "Denji",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-death-note-ryuk",
+      "slug": "plush-death-note-ryuk",
+      "title": "Peluche Death Note - Ryuk",
+      "price": 11400,
+      "image": "/img/products/plush/plush-death-note-ryuk.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "death-note",
+        "name": "Death Note"
+      },
+      "character": "Ryuk",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-dragonball-goku-ssj-blue",
+      "slug": "plush-dragonball-goku-ssj-blue",
+      "title": "Peluche Dragon Ball - Goku SSJ Blue",
+      "price": 11700,
+      "image": "/img/products/plush/plush-dragonball-goku-ssj-blue.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Goku SSJ Blue",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-dragonball-goku-ssj",
+      "slug": "plush-dragonball-goku-ssj",
+      "title": "Peluche Dragon Ball - Goku SSJ",
+      "price": 13600,
+      "image": "/img/products/plush/plush-dragonball-goku-ssj.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Goku SSJ",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-dragonball-vegeta-ssj-blue",
+      "slug": "plush-dragonball-vegeta-ssj-blue",
+      "title": "Peluche Dragon Ball - Vegeta SSJ Blue",
+      "price": 12500,
+      "image": "/img/products/plush/plush-dragonball-vegeta-ssj-blue.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "dragon-ball",
+        "name": "Dragon Ball"
+      },
+      "character": "Vegeta SSJ Blue",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-garfield",
+      "slug": "plush-garfield",
+      "title": "Peluche Garfield",
+      "price": 14600,
+      "image": "/img/products/plush/plush-garfield.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "garfield",
+        "name": "Garfield"
+      },
+      "character": "Garfield",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-kawaii-heart-blue",
+      "slug": "plush-kawaii-heart-blue",
+      "title": "Peluche Kawaii Heart Blue",
+      "price": 11800,
+      "image": "/img/products/plush/plush-kawaii-heart-blue.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "otros",
+        "name": "Otros"
+      },
+      "character": "Kawaii Heart Blue",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-kawaii-heart-purple",
+      "slug": "plush-kawaii-heart-purple",
+      "title": "Peluche Kawaii Heart Purple",
+      "price": 11700,
+      "image": "/img/products/plush/plush-kawaii-heart-purple.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "otros",
+        "name": "Otros"
+      },
+      "character": "Kawaii Heart Purple",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
       "id": "plush-kirby",
       "slug": "plush-kirby",
       "title": "Peluche Kirby",
@@ -1837,6 +2143,310 @@
         "name": "Kirby"
       },
       "character": "Kirby",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-lucifer-cat",
+      "slug": "plush-lucifer-cat",
+      "title": "Peluche Lucifer Cat",
+      "price": 12500,
+      "image": "/img/products/plush/plush-lucifer-cat.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "otros",
+        "name": "Otros"
+      },
+      "character": "Lucifer Cat",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-mario",
+      "slug": "plush-mario",
+      "title": "Peluche Super Mario",
+      "price": 14000,
+      "image": "/img/products/plush/plush-mario.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "super-mario",
+        "name": "Super Mario"
+      },
+      "character": "Super Mario",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-minecraft-mooshroom",
+      "slug": "plush-minecraft-mooshroom",
+      "title": "Peluche Minecraft - Mooshroom",
+      "price": 13200,
+      "image": "/img/products/plush/plush-minecraft-mooshroom.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "minecraft",
+        "name": "Minecraft"
+      },
+      "character": "Mooshroom",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-minecraft-steve",
+      "slug": "plush-minecraft-steve",
+      "title": "Peluche Minecraft - Steve",
+      "price": 13200,
+      "image": "/img/products/plush/plush-minecraft-steve.webp",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "minecraft",
+        "name": "Minecraft"
+      },
+      "character": "Steve",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-naruto-gaara",
+      "slug": "plush-naruto-gaara",
+      "title": "Peluche Naruto - Gaara",
+      "price": 12400,
+      "image": "/img/products/plush/plush-naruto-gaara.webp",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "naruto",
+        "name": "Naruto"
+      },
+      "character": "Gaara",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-naruto-itachi",
+      "slug": "plush-naruto-itachi",
+      "title": "Peluche Naruto - Itachi",
+      "price": 15900,
+      "image": "/img/products/plush/plush-naruto-itachi.webp",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "naruto",
+        "name": "Naruto"
+      },
+      "character": "Itachi",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-patrick-star",
+      "slug": "plush-patrick-star",
+      "title": "Peluche Bob Esponja - Patrick Star",
+      "price": 12800,
+      "image": "/img/products/plush/plush-patrick-star.png",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "bob-esponja",
+        "name": "Bob Esponja"
+      },
+      "character": "Patrick Star",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-pokemon-charizard",
+      "slug": "plush-pokemon-charizard",
+      "title": "Peluche Pokémon - Charizard",
+      "price": 11500,
+      "image": "/img/products/plush/plush-pokemon-charizard.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "pokemon",
+        "name": "Pokémon"
+      },
+      "character": "Charizard",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-pokemon-charmeleon",
+      "slug": "plush-pokemon-charmeleon",
+      "title": "Peluche Pokémon - Charmeleon",
+      "price": 12200,
+      "image": "/img/products/plush/plush-pokemon-charmeleon.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "pokemon",
+        "name": "Pokémon"
+      },
+      "character": "Charmeleon",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-pokemon-squirtle",
+      "slug": "plush-pokemon-squirtle",
+      "title": "Peluche Pokémon - Squirtle",
+      "price": 14000,
+      "image": "/img/products/plush/plush-pokemon-squirtle.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "pokemon",
+        "name": "Pokémon"
+      },
+      "character": "Squirtle",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-pokemon-vaporeon",
+      "slug": "plush-pokemon-vaporeon",
+      "title": "Peluche Pokémon - Vaporeon",
+      "price": 14200,
+      "image": "/img/products/plush/plush-pokemon-vaporeon.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "pokemon",
+        "name": "Pokémon"
+      },
+      "character": "Vaporeon",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-powerpuff-buttercup",
+      "slug": "plush-powerpuff-buttercup",
+      "title": "Peluche Chicas Superpoderosas - Buttercup",
+      "price": 13200,
+      "image": "/img/products/plush/plush-powerpuff-buttercup.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "powerpuff-girls",
+        "name": "Chicas Superpoderosas"
+      },
+      "character": "Buttercup",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-shark",
+      "slug": "plush-shark",
+      "title": "Peluche Shark",
+      "price": 11700,
+      "image": "/img/products/plush/plush-shark.png",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "otros",
+        "name": "Otros"
+      },
+      "character": "Shark",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-stray-kids-dwaekki",
+      "slug": "plush-stray-kids-dwaekki",
+      "title": "Peluche Stray Kids - Dwaekki",
+      "price": 14400,
+      "image": "/img/products/plush/plush-stray-kids-dwaekki.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "character": "Dwaekki",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-stray-kids-leebit",
+      "slug": "plush-stray-kids-leebit",
+      "title": "Peluche Stray Kids - Leebit",
+      "price": 13800,
+      "image": "/img/products/plush/plush-stray-kids-leebit.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "character": "Leebit",
+      "tags": [],
+      "inStock": true,
+      "featured": false
+    },
+    {
+      "id": "plush-stray-kids-skzoo-cream",
+      "slug": "plush-stray-kids-skzoo-cream",
+      "title": "Peluche Stray Kids - Skzoo Cream",
+      "price": 15500,
+      "image": "/img/products/plush/plush-stray-kids-skzoo-cream.jpg",
+      "category": {
+        "slug": "peluches",
+        "name": "Peluches"
+      },
+      "saga": {
+        "slug": "stray-kids",
+        "name": "Stray Kids"
+      },
+      "character": "Skzoo Cream",
       "tags": [],
       "inStock": true,
       "featured": false
