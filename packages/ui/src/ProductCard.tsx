@@ -38,13 +38,31 @@ export function ProductCard({ product, href }: ProductCardProps) {
 
   return (
     <article className="group flex h-full flex-col rounded-3xl bg-white p-3 shadow-sm ring-1 ring-black/5 transition hover:shadow-lg">
-      {/* Imagen + botón de favorito */}
+      {/* Imagen + overlay glassmorphism (aparece al hover) + favorito */}
       <div className="relative">
         {href ? <a href={href}>{media}</a> : media}
+
+        {/* Overlay glassmorphism con acciones */}
+        <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-3 rounded-2xl bg-white/20 p-4 opacity-0 ring-1 ring-inset ring-white/40 backdrop-blur-md transition-all duration-300 group-hover:pointer-events-auto group-hover:opacity-100">
+          <AddToCartButton
+            product={{ id: product.id, name, price, image }}
+            label="Comprar"
+            className="w-full max-w-[11rem] px-5 py-2.5 text-sm shadow-md"
+          />
+          {href ? (
+            <a
+              href={href}
+              className="w-full max-w-[11rem] rounded-xl border border-white/60 bg-white/70 px-5 py-2.5 text-center text-sm font-semibold text-brand shadow-md backdrop-blur transition hover:bg-white"
+            >
+              Ver detalle
+            </a>
+          ) : null}
+        </div>
+
         <FavoriteButton
           productId={product.id}
           productName={name}
-          className="absolute right-3 top-3"
+          className="absolute right-3 top-3 z-20"
         />
       </div>
 
@@ -95,6 +113,13 @@ export function ProductCard({ product, href }: ProductCardProps) {
                 </span>
               ) : null}
             </div>
+            <p className="mt-1 text-xs text-black/50">
+              3 cuotas sin interés de{" "}
+              <span className="font-semibold">{formatPrice(price / 3)}</span>
+            </p>
+            <p className="text-xs font-bold text-accent">
+              {formatPrice(price * 0.9)} con transferencia
+            </p>
           </div>
           <AddToCartButton
             product={{

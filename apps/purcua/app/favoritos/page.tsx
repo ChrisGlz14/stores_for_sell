@@ -12,7 +12,7 @@ import {
   Footer,
   useFavorites,
 } from "@repo/ui";
-import { navLinks, footerColumns, storeLocation } from "../data";
+import { navLinks, menuGroups, footerColumns, storeLocation } from "../data";
 import {
   getAllProducts,
   getSearchItems,
@@ -31,6 +31,7 @@ export default function FavoritosPage() {
       <Navbar
         brand={BRAND}
         links={navLinks}
+        menuGroups={menuGroups}
         search={<SearchBox items={getSearchItems()} />}
       />
 

@@ -1,5 +1,5 @@
 // Tipos y utilidades
-export type { Product, NavLink } from "./types";
+export type { Product, NavLink, MenuGroup } from "./types";
 export { formatPrice } from "./format";
 
 // Avisos temporales (toasts)
@@ -7,6 +7,14 @@ export { ToastProvider, useToast } from "./ToastContext";
 // Aviso flotante de stock
 export { StockNotice } from "./StockNotice";
 export type { StockNoticeProps } from "./StockNotice";
+
+// Panel administrativo
+export { AdminShell } from "./admin/AdminShell";
+export type { AdminShellProps, AdminNavItem } from "./admin/AdminShell";
+export { StatCard } from "./admin/StatCard";
+export type { StatCardProps } from "./admin/StatCard";
+export { AdminBarChart } from "./admin/AdminBarChart";
+export type { AdminBarChartProps, BarDatum } from "./admin/AdminBarChart";
 
 // Instagram
 export { InstagramEmbed } from "./InstagramEmbed";
@@ -47,6 +55,8 @@ export { BannerCarousel } from "./BannerCarousel";
 export type { BannerCarouselProps, CarouselSlide } from "./BannerCarousel";
 export { CategoryBar } from "./CategoryBar";
 export type { CategoryBarProps } from "./CategoryBar";
+export { CategoryCircles } from "./CategoryCircles";
+export type { CategoryCirclesProps, CategoryCircleItem } from "./CategoryCircles";
 export { SectionHeading } from "./SectionHeading";
 export type { SectionHeadingProps } from "./SectionHeading";
 export { ProductCard } from "./ProductCard";

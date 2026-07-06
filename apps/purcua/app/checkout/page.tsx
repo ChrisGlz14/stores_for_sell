@@ -14,7 +14,7 @@ import {
   formatPrice,
   type CheckoutData,
 } from "@repo/ui";
-import { navLinks, footerColumns, storeLocation } from "../data";
+import { navLinks, menuGroups, footerColumns, storeLocation } from "../data";
 import { getSearchItems } from "../lib/catalog";
 
 const BRAND = "Purcuá";
@@ -35,6 +35,7 @@ export default function CheckoutPage() {
       <Navbar
         brand={BRAND}
         links={navLinks}
+        menuGroups={menuGroups}
         search={<SearchBox items={getSearchItems()} />}
       />
 

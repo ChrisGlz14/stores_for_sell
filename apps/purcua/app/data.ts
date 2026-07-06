@@ -1,4 +1,51 @@
-import type { NavLink, Product, FooterColumn, CarouselSlide } from "@repo/ui";
+import type {
+  NavLink,
+  MenuGroup,
+  Product,
+  FooterColumn,
+  CarouselSlide,
+  CategoryCircleItem,
+} from "@repo/ui";
+
+// Menú acordeón para mobile.
+export const menuGroups: MenuGroup[] = [
+  { label: "Inicio", href: "/" },
+  {
+    label: "Productos",
+    children: [
+      { label: "Figuras", href: "/categoria/figuras" },
+      { label: "Aros", href: "/categoria/aros" },
+      { label: "Peluches", href: "/categoria/peluches" },
+      { label: "Llaveros", href: "/categoria/llaveros" },
+    ],
+  },
+  {
+    label: "Personalizados",
+    children: [
+      { label: "Tazas y tazones", href: "#personalizados" },
+      { label: "Textil", href: "#personalizados" },
+      { label: "Papelería para cumple", href: "#personalizados" },
+      { label: "Papelería para emprendedores", href: "#personalizados" },
+    ],
+  },
+  {
+    label: "Información",
+    children: [
+      { label: "Cómo comprar", href: "#" },
+      { label: "Envíos", href: "#" },
+      { label: "Contacto", href: "#" },
+    ],
+  },
+];
+
+// Selectores de categoría circulares (debajo del navbar).
+export const categoryCircles: CategoryCircleItem[] = [
+  { label: "Figuras", href: "/categoria/figuras", image: "/img/products/figures/pokemon-pikachu.jpg" },
+  { label: "Aros", href: "/categoria/aros", image: "/img/products/earrings/earrings-bt21-chimmy.jpg" },
+  { label: "Peluches", href: "/categoria/peluches", image: "/img/products/plush/plush-kirby.webp" },
+  { label: "Llaveros", href: "/categoria/llaveros", image: "/img/products/keychains/keychain-predator.png" },
+  { label: "Personalizados", href: "#personalizados", image: "/img/custom-work/mug-mockup-your-design.jpg" },
+];
 
 // Instagram de la tienda. Pegá links de POSTS (no del perfil) para mostrarlos.
 export const storeInstagram = {

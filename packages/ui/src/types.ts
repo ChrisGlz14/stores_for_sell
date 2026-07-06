@@ -22,3 +22,10 @@ export interface NavLink {
   label: string;
   href: string;
 }
+
+/** Grupo del menú mobile: link simple, o acordeón con sub-items. */
+export interface MenuGroup {
+  label: string;
+  href?: string;
+  children?: NavLink[];
+}

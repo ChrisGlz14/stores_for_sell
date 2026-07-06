@@ -2,7 +2,7 @@ import {
   Navbar,
   SearchBox,
   BannerCarousel,
-  CategoryBar,
+  CategoryCircles,
   SectionHeading,
   ProductGrid,
   InstagramSection,
@@ -10,8 +10,9 @@ import {
 } from "@repo/ui";
 import {
   navLinks,
+  menuGroups,
   heroSlides,
-  categories,
+  categoryCircles,
   footerColumns,
   storeLocation,
   storeInstagram,
@@ -31,13 +32,14 @@ export default function Home() {
       <Navbar
         brand={BRAND}
         links={navLinks}
+        menuGroups={menuGroups}
         search={<SearchBox items={getSearchItems()} />}
       />
 
       <main className="flex-1">
-        <BannerCarousel slides={heroSlides} interval={6000} />
+        <CategoryCircles items={categoryCircles} />
 
-        <CategoryBar categories={categories} />
+        <BannerCarousel slides={heroSlides} interval={6000} />
 
         <section id="nuevos" className="mx-auto max-w-6xl px-4 py-14 sm:px-6">
           <SectionHeading

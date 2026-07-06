@@ -16,7 +16,7 @@ import {
   getSearchItems,
   toCard,
 } from "../../lib/catalog";
-import { navLinks, footerColumns, storeLocation } from "../../data";
+import { navLinks, menuGroups, footerColumns, storeLocation } from "../../data";
 
 const BRAND = "Purcuá";
 
@@ -52,6 +52,7 @@ export default async function CategoriaPage({
       <Navbar
         brand={BRAND}
         links={navLinks}
+        menuGroups={menuGroups}
         search={<SearchBox items={getSearchItems()} />}
       />
 
